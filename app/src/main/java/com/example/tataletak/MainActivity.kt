@@ -20,8 +20,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             TataLetakTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Zhil",
+                    TataletakBoxColumnRow(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
