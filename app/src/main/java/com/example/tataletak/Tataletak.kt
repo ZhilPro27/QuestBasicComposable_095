@@ -141,6 +141,16 @@ fun TataletakBoxColumnRow(modifier: Modifier) {
                 contentDescription = null,
                 contentScale = ContentScale.Fit
             )
+            Text(
+                text = "Gamebox",
+                fontSize = 50.sp,
+                color = Color.White,
+                fontWeight = FontWeight.Bold,
+                fontFamily = FontFamily.Cursive,
+                modifier = Modifier.align(
+                    alignment = Alignment.Center
+                )
+            )
         }
     }
 }
